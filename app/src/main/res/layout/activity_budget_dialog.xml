@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parul.budgetcalculator.BudgetDialog"
+    android:orientation="vertical"
+    android:id="@+id/dialog">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Enter Total Budget"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etext"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/budget_text"/>
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="120dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:onClick="ok"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/ok"
+        android:background="@color/colorAccent">
+
+    </Button>
+
+
+</LinearLayout>
+
+
